@@ -6,6 +6,8 @@
 $ npm install --save shatter-html
 ```
 
+## *WARNING* -- Documentations is outdated! Updated README coming soon.
+
 ## Usage
 ```javascript
 var Shatter = require("shatter-html");
