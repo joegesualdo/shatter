@@ -1,0 +1,14 @@
+{
+  "name": "shatter",
+  "version": "0.0.1",
+  "description": "Split strings into html elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Gesualdo",
+  "license": "MIT",
+  "dependencies": {
+    "wrap-with-html": "0.0.1"
+  }
+}
