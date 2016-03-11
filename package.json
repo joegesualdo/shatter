@@ -1,6 +1,6 @@
 {
   "name": "shatter-html",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Split strings into html elements.",
   "main": "index.js",
   "scripts": {
