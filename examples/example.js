@@ -9,8 +9,10 @@ var Shatter = require(__dirname + "/../index")
 // console.log(shatterHTML)
 var shatterEl = new Shatter({
   string: "Hello world",
-  wrapperClass: "shatter-wrapper",
-  wrapperTagName: "div",
+  wrapperEl: {
+    customClass: "shatter-wrapper",
+    tagName: "div"
+  },
   delimeters: [{
     delimeter: "word",
     elClassName: "word-el",

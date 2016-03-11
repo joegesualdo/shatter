@@ -2,9 +2,8 @@ var wrapWithHTML = require("wrap-with-html");
 
 function Shatter(opts) {
   this.rawString = opts.string;
-  this.wrapperTagName = opts.wrapperTagName || "div";
-  this.wrapperClass = opts.wrapperClass || "shatter-holder";
   this.delimeters = opts.delimeters;
+  this.wrapperEl = opts.wrapperEl;
 }
 
 Shatter.prototype.getHTML = function() {
@@ -64,11 +63,13 @@ Shatter.prototype.getHTML = function() {
       })
     }
   }
-  htmlString = wrapWithHTML({
-    string: htmlString,
-    tagName: this.wrapperTag,
-    customClass: this.wrapperClass
-  })
+  if (this.wrapperEl !== undefined) {
+    htmlString = wrapWithHTML({
+      string: htmlString,
+      tagName: this.wrapperEl.tagName,
+      customClass: this.wrapperEl.customClass
+    })
+  }
 
   return htmlString;
 }
