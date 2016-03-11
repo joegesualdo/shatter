@@ -8,7 +8,7 @@ $ npm install --save shatter-html
 
 ## Usage
 ```javascript
-var Shatter = require("shatter");
+var Shatter = require("shatter-html");
 
 var shatterEl = new Shatter({
   string: "Hello world",
