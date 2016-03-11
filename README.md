@@ -11,7 +11,7 @@ $ npm install --save shatter-html
 var Shatter = require("shatter");
 
 var shatterEl = new Shatter({
-  string: "Hello there penny sneak.",
+  string: "Hello world",
   delimeter: " ",
   elClassName: "word"
 })
