@@ -3,7 +3,7 @@
 
 ## Install
 ```
-$ npm install --save shatter
+$ npm install --save shatter-html
 ```
 
 ## Usage

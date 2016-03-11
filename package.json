@@ -1,5 +1,5 @@
 {
-  "name": "shatter",
+  "name": "shatter-html",
   "version": "0.0.1",
   "description": "Split strings into html elements.",
   "main": "index.js",
