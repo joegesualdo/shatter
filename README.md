@@ -20,10 +20,10 @@ var shatterEl = new Shatter({
 
 shatterEl.getHTML()
 //=> <div id='' class='shatter-holder'>
-//=>   <div id='' class='word'>
+//=>   <div id='' class='wod'>
 //=>     Hello
 //=>   </div>
-//=>   <div id='' class='word'>
+//=>   <div id='' class='wod'>
 //=>     world
 //=>   </div>
 //=> </div>
